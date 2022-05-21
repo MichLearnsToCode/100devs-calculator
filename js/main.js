@@ -12,9 +12,9 @@ document.querySelector("#seven").addEventListener("click", append7);
 document.querySelector("#eight").addEventListener("click", append8);
 document.querySelector("#nine").addEventListener("click", append9);
 document.querySelector("#zero").addEventListener("click", append0);
+
 document.querySelector("#clear").addEventListener("click", clear);
 document.querySelector("#decimal").addEventListener("click", decimal);
-
 document.querySelector("#divide").addEventListener("click", divide);
 document.querySelector("#multiply").addEventListener("click", multiply);
 document.querySelector("#minus").addEventListener("click", minus);
@@ -22,9 +22,15 @@ document.querySelector("#plus").addEventListener("click", plus);
 document.querySelector("#equals").addEventListener("click", equals);
 
 function decimal() {
-  display = "" + display + ".";
-  document.querySelector("#placeToPutResult").innerText = display;
+  if (Number(display)==NaN){
+
+  } else {
+    display = "" + display + ".";
+    document.querySelector("#placeToPutResult").innerText = display;
+  }
 }
+
+console.log(Number(""))
 
 function append1() {
   display = "" + display + 1;

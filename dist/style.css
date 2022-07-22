@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap);
+.calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 600px;
+  margin-top: -250px;
+  margin-left: -200px;
+  overflow: hidden;
+  background: #4d2158;
+  color: #fff;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 20px;
+}
+
+#display {
+  box-sizing: border-box;
+  position: relative;
+  float: right;
+  height: 100px;
+  width: 400px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.button {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #8b38a0;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+  padding: 40px;
+}
+.button:hover {
+  box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  transform: scale(0.95);
+}
+
+#equals {
+  height: 100px;
+  width: 400px;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  background: #8b38a0;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+  padding: 40px;
+}
+#equals:hover {
+  box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  transform: scale(0.95);
+}/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,14 @@
 * {
-  box-sizing: border-box;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
-h1,
-h2 {
+
+h1 {
   text-align: center;
+  font-weight: 700;
 }
+
 ul {
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   width: 250px;
@@ -13,17 +16,19 @@ ul {
   margin: auto;
   list-style: none;
   background-color: black;
+  border-radius: 25px;
+  font-weight: 400;
 }
+
 li {
-  justify-items: center;
-  margin: auto;
-  text-align: center;
-  border-radius: 50%;
   height: 50px;
   width: 50px;
+  font-size: 40px;
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 50%;
   background-color: white;
-  color:black;
-  justify-content: space-around;
+  color: black;
 }
 
 li:first-child {
